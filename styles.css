@@ -1,0 +1,114 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #F0F0F5;
+  text-align: center;
+  font-size: 15px;
+  width: 1440px;
+  line-height: 2;
+}
+
+/***** Top container *****/
+h1 {
+  color: #4C4E61;
+  font-weight: 600;
+}
+
+span {
+  font-weight: 200;
+}
+
+.top-container {
+  margin: 5% auto;
+  width: 40%;
+}
+
+p {
+  color: #A3A5AE;
+  font-weight: 400;
+}
+
+/***** Tool divs *****/
+h2 {
+  color: #4C4E61;
+  font-weight: 600;
+}
+
+.tool {
+  text-align: left;
+  border-radius: 5px;
+  width: 25%;
+  height: 220px;
+  padding: 0 20px 30px 20px;
+  border-top: 5px inset;
+  box-shadow: 2px 5px #4C4E61;
+  margin: 20px 10px;
+  position: relative;
+  background-color: white;
+  display: inline-block;
+}
+
+.title-and-description {
+  width: 90%;
+}
+
+.tool-description {
+  font-weight: 200;
+}
+
+#supervisor {
+  border-color: #45D3D3;
+  top: 160px;
+}
+
+#team-builder {
+  border-color: #EA5353;
+}
+
+#karma {
+  border-color: #FCAF4A;
+  top: 295px;
+  right: 425px;
+}
+
+#calculator {
+  border-color: #549EF2;
+  left: 420px;
+  bottom: 135px;
+}
+
+/**** Tool images ****/
+.icon {
+  position: absolute;
+  right: 10%;
+  bottom: 10%;
+}
+
+@media  screen and (max-width: 375px) {
+  body {
+    margin: 0;
+    width: 375px;
+  }
+
+  .top-container {
+    width: 100%;
+  }
+
+  .tool {
+    width: 100%;
+    display: block;
+    margin: 30px auto;
+  }
+  .tool#supervisor {
+    top: 0;
+  }
+
+  .tool#karma {
+    top: 0;
+    right: 0;
+  }
+
+  .tool#calculator {
+    left: 0;
+    bottom: 0;
+  }
+}
